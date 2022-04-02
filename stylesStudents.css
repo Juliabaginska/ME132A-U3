@@ -1,0 +1,82 @@
+body {
+  background-color: #EEEDDE;
+  margin: 15px;
+  padding-bottom: 20px;
+  font-family: 'Kanit', sans-serif;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  color: #141E27;
+  font-size: 50px;
+}
+
+#studentSearch{
+  border-radius: 10px;
+  border: solid 2px #141E27;
+  font-family: 'Kanit', sans-serif;
+}
+
+header {
+  font-size: 25px;
+  font-family: 'Kanit', sans-serif;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+#studentName {
+  font-family: 'Kanit', sans-serif;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+#courses {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 9px;
+  padding: 9px;
+}
+
+#courses > div > h3 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+}
+
+#courses > div > p {
+  margin: 4px;
+  padding: 0px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#courses > div {
+  text-align: center;
+}
+
+.done {
+  border: solid 1px black;
+  border-radius: 4px;
+  padding: 6px;
+  margin: 6px;
+  background-color: rgba(199, 255, 236, 0.747);
+}
+
+.notdone {
+  border: solid 1px grey;
+  border-radius: 4px;
+  padding: 6px;
+  margin: 6px;
+  opacity: 50%;
+}
+
