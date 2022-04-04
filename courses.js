@@ -116,9 +116,20 @@ function searchCourse() {
         }
     }
 
-    // let sortedCourses = coursesArray.sort((a,b) => a > b ? 1 : -1);
-    getCourses(coursesArray)
+    let sortedCourses = coursesArray.sort(
+        function(a, b){
+            if (a.title > b.title){
+                return 1;
+            }
+            if (a.title < b.title){
+                return -1;
+            }
+            return 0;
+        }
+    );
+    getCourses(sortedCourses)
 }
+
 
 function submit () {
     let coursesArray = []
@@ -130,6 +141,6 @@ function submit () {
     getCourses(coursesArray)
 }
 
-input.addEventListener("submit", searchCourse());
+// input.addEventListener("submit", searchCourse());
 getCourses(DATABASE.courses);
 

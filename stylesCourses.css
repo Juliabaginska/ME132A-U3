@@ -1,5 +1,5 @@
 body {
-    background-color: #EEEDDE;
+    background-color: #F2ECDA;
     margin: 15px;
     padding-bottom: 20px;
     font-family: 'Kanit', sans-serif;
@@ -7,17 +7,17 @@ body {
 
 #coursesSearch {
     border-radius: 10px;
-    border: solid 2px #141E27;
+    border: solid 2px #14364F;
     font-family: 'Kanit', sans-serif;
 }
 
-#courses {
+#container {
     margin-top: 10px;
     padding: 15px;
     border-radius: 8px;
     border: solid 1px black;
     background-color: #EEEDDE;
-  }
+}
 
 h1 {
     text-align: center;
@@ -30,14 +30,6 @@ form {
     color: #141E27;
     font-size: 10px;
     font-family: 'Kanit', sans-serif;
-}
-
-
-#courses {
-    margin-top: 15px;
-    padding: 10px;
-    background-color: white;
-    border-bottom: solid 1px black;
 }
 
 header {

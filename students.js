@@ -54,8 +54,8 @@ function getCourses(student){
         courses.push(courseInfo[id]);
     }
 
-let courseBox = [];
-for (let i = 0; i < courses.length; i++) {
+    let courseBox = [];
+    for (let i = 0; i < courses.length; i++) {
     let div = document.createElement("div");
     if (student.courses[i].passedCredits == courseInfo[courses[i].courseId].totalCredits) {
         let info = div.innerHTML = `
@@ -96,7 +96,17 @@ function studentLastName() {
             studentsArray.push(students[i]);
         }
     }
-    let sortedStudents = studentsArray.sort((a,b) => a > b ? 1 : -1);
+    let sortedStudents = studentsArray.sort(
+        function(a, b){
+            if (a.lastName > b.lastName){
+                return 1;
+            }
+            if (a.lastName < b.lastName){
+                return -1;
+            }
+            return 0;
+        }
+    );
     getStudents(sortedStudents)
 }
 

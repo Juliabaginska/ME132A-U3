@@ -1,8 +1,8 @@
 body {
-  background-color: #EEEDDE;
+  background-color: #E0EDE7;
   margin: 15px;
   padding-bottom: 20px;
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 #wrapper {
@@ -14,29 +14,37 @@ body {
 
 h1 {
   text-align: center;
-  color: #141E27;
+  color: #2f3e1a;
   font-size: 50px;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 #studentSearch{
   border-radius: 10px;
-  border: solid 2px #141E27;
-  font-family: 'Kanit', sans-serif;
+  border: solid 2px #1D2422;
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #f0f6f3;
 }
 
 header {
   font-size: 25px;
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   margin-top: 20px;
   padding-top: 10px;
 }
 
 #studentName {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  font-weight: 300px;
+  color: #1D2422;
+  border-top: solid 5px #2f3e1a;
 }
 
 h4 {
-  font-size: 40px;
+  font-size: 20px;
+  color: #2f3e1a;
+  font-weight: 400;
 }
 
 #courses {
@@ -50,13 +58,13 @@ h4 {
   margin: 0px;
   padding: 0px;
   font-size: 15px;
+  font-weight:400;
 }
 
 #courses > div > p {
   margin: 4px;
   padding: 0px;
   font-style: italic;
-  font-weight: bold;
   font-size: 12px;
 }
 
@@ -65,11 +73,12 @@ h4 {
 }
 
 .done {
-  border: solid 1px black;
+  border: solid 2px #4f672c;
+  color: #2f3e1a;
   border-radius: 4px;
   padding: 6px;
   margin: 6px;
-  background-color: rgba(199, 255, 236, 0.747);
+  background-color: #BBD398;
 }
 
 .notdone {
